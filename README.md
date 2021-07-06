@@ -33,6 +33,7 @@ data should be:
 [signin](https://ahmad-osbeh-bearer-auth.herokuapp.com/signin)
 
 - https://ahmad-osbeh-bearer-auth.herokuapp.com/signin
+- https://ahmad-osbeh-bearer-auth.herokuapp.com/users
 
 - Returns : json with requested data
 
