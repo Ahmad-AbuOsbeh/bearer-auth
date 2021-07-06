@@ -22,6 +22,9 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/', authRoutes);
+app.get('/', (req, res) => {
+  res.send('Home route');
+});
 
 // Catchalls
 app.use('*', notFound);
