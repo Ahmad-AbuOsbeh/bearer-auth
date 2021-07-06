@@ -25,21 +25,21 @@ data should be:
 ```
 
 **example hit :**
-[sign up](https://ahmad-osbeh-basic-auth.herokuapp.com/api/v1/signup)
+[sign up](https://ahmad-osbeh-bearer-auth.herokuapp.com/signup)
 
-- https://ahmad-osbeh-basic-auth.herokuapp.com/api/v1/signup
+- https://ahmad-osbeh-bearer-auth.herokuapp.com/signup
 
 **example hit :**
-[signin](https://ahmad-osbeh-basic-auth.herokuapp.com/api/v1/signin)
+[signin](https://ahmad-osbeh-bearer-auth.herokuapp.com/signin)
 
-- https://ahmad-osbeh-basic-auth.herokuapp.com/api/v1/signin
+- https://ahmad-osbeh-bearer-auth.herokuapp.com/signin
 
 - Returns : json with requested data
 
 ```
 
 {
-"domain": "https://ahmad-osbeh-basic-auth.herokuapp.com/",
+"domain": "https://ahmad-osbeh-bearer-auth.herokuapp.com/",
 "status": "running",
 "port": 3003
 }
@@ -48,7 +48,7 @@ data should be:
 
 # PR link
 
-[PR link](https://github.com/Ahmad-AbuOsbeh/basic-auth/pull/1)
+[PR link](https://github.com/Ahmad-AbuOsbeh/bearer-auth/pull/1)
 
 **Tests**
 
